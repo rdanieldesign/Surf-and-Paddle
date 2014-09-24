@@ -1,18 +1,45 @@
 /* Defaults */
 
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
 
 
 /* Container */
 
 .wrapper {
-  width: 100%;
-  margin: 0 auto;
-  overflow: auto;
+  max-width: 100%;
 }
 
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
 
 /* Header */
 
@@ -20,5 +47,16 @@ li {
   background-image: url("../img/header.jpg");
   background-color: blue;
   height: 523px;
-  width: 100%;
+}
+
+.nav {
+  overflow: auto;
+}
+
+.nav .logo {
+  float: left;
+}
+
+.nav-links {
+  float: right;
 }
