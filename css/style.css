@@ -1,0 +1,24 @@
+/* Defaults */
+
+li {
+  list-style: none;
+}
+
+
+/* Container */
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+
+/* Header */
+
+.header {
+  background-image: url("../img/header.jpg");
+  background-color: blue;
+  height: 523px;
+  width: 100%;
+}
