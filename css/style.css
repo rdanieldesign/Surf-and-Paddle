@@ -23,6 +23,15 @@ p {
   line-height: 1.6em;
 }
 
+p a {
+  text-decoration: underline;
+  color: HSLA(205, 18%, 68%, 1);
+}
+
+p a:hover {
+  color: HSLA(209, 100%, 33%, 1);
+}
+
 blockquote {
   /* -webkit-margin-before: 1em; */
   /* -webkit-margin-after: 1em; */
@@ -129,6 +138,7 @@ h1 {
 
 .post-author {
   margin-bottom: 40px;
+  font-size: .8em;
 }
 
 .post-author li{
@@ -143,10 +153,50 @@ h1 {
 
 .post-name {
   color: HSLA(209, 100%, 33%, 1);
+  margin-left: 4px;
 }
 
 .post-date {
   color: HSLA(205, 18%, 68%, 1);
+  margin-left: 8px;
+}
+
+.post-options {
+  margin-top: 20px;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0;
+  font-size: .8em;
+}
+
+.post-options li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  background-color: HSLA(205, 9%, 38%, 1);
+  height: 28px;
+}
+
+.post-options img {
+  vertical-align: middle;
+  padding: 7px 5px 7px 8px;
+}
+
+.post-options span {
+  background-color: HSLA(205, 18%, 68%, 1);
+  color: white;
+  vertical-align: middle;
+  line-height: 28px;
+  padding: 6px 17px 6px 12px;
+}
+
+.post-options li:hover {
+  background-color: HSLA(204, 83%, 14%, 1);
+}
+
+.post-options li:hover span {
+  background-color: HSLA(209, 100%, 33%, 1);
 }
 
 
@@ -154,6 +204,7 @@ h1 {
 
 section {
   width: 100%;
+  clear: both;
 }
 
 section ul {
