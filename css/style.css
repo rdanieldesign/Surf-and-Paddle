@@ -258,6 +258,7 @@ section {
   border-top: HSLA(205, 18%, 68%, 1) solid 1px;
   padding-top: 40px;
   margin-top: 60px;
+  overflow: hidden;
 }
 
 section h1 {
@@ -268,22 +269,8 @@ section h1 {
 section li {
   display: inline-block;
   float: left;
-  position: relative;
   height: 330px;
   width: 25%;
-}
-
-section li:after {
-  content: "";
-  position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: HSLA(209, 100%, 33%, .6);
-}
-
-section li:hover:after {
-  background-color: HSLA(209, 100%, 33%, 0);
 }
 
 .article1 {
@@ -302,11 +289,26 @@ section li:hover:after {
   background-image: url("../img/article-image-4.jpg");
 }
 
+section div {
+  background-color: HSLA(209, 100%, 33%, .6);
+  width: 100%;
+  height: 100%;
+}
+
 section a {
   color: HSLA(204, 83%, 14%, 1);
   font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
+  font-size: 2em;
   text-transform: uppercase;
-  padding-top: 90%;
-  padding-left: 10%;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+section div:hover {
+  background-color: HSLA(209, 100%, 33%, 0);
+}
+
+section div:hover a {
+  color: white;
 }
