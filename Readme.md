@@ -1,3 +1,4 @@
-# This is the README for Richard's Assignment 3 Project.
+# Assignment 3: Surf & Paddle
+### The Iron Yard
 
 Here's some paragraph text in my README file.
