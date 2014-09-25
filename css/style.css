@@ -55,7 +55,7 @@ blockquote {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  overflow: auto;
+  overflow: hidden;
 }
 
 
@@ -63,7 +63,7 @@ blockquote {
 
 header {
   background-image: url("../img/header.jpg");
-  background-color: blue;
+  background-color: HSLA(204, 83%, 14%, 1);
   height: 523px;
   overflow: auto;
 }
@@ -175,12 +175,12 @@ h1 {
   vertical-align: middle;
   margin-right: 8px;
   background-color: HSLA(205, 9%, 38%, 1);
-  height: 28px;
 }
 
 .post-options img {
   vertical-align: middle;
   padding: 7px 5px 7px 8px;
+  height: 2.06em;
 }
 
 .post-options span {
@@ -234,14 +234,19 @@ h1 {
 
 .sidebar {
   clear: both;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .sidebar h3 {
   color: HSLA(209, 100%, 33%, 1);
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-  font-size: 2em;
+  font-size: 1.2em;
+}
+
+.sidebar p {
+  color: HSLA(205, 18%, 68%, 1);
+  font-size: .8em;
 }
 
 
@@ -250,8 +255,58 @@ h1 {
 section {
   width: 100%;
   clear: both;
+  border-top: HSLA(205, 18%, 68%, 1) solid 1px;
+  padding-top: 40px;
+  margin-top: 60px;
 }
 
-section ul {
+section h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section li {
+  display: inline-block;
+  float: left;
+  position: relative;
   height: 330px;
+  width: 25%;
+}
+
+section li:after {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: HSLA(209, 100%, 33%, .6);
+}
+
+section li:hover:after {
+  background-color: HSLA(209, 100%, 33%, 0);
+}
+
+.article1 {
+  background-image: url("../img/article-image-1.jpg");
+}
+
+.article2 {
+  background-image: url("../img/article-image-2.jpg");
+}
+
+.article3 {
+  background-image: url("../img/article-image-3.jpg");
+}
+
+.article4 {
+  background-image: url("../img/article-image-4.jpg");
+}
+
+section a {
+  color: HSLA(204, 83%, 14%, 1);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding-top: 90%;
+  padding-left: 10%;
 }
