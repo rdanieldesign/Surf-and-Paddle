@@ -114,7 +114,7 @@ header p {
 }
 
 
-/* Body */
+/* Post */
 
 article {
   float: left;
@@ -197,6 +197,51 @@ h1 {
 
 .post-options li:hover span {
   background-color: HSLA(209, 100%, 33%, 1);
+}
+
+
+/* Aside */
+
+.author {
+  text-align: center;
+}
+
+.author h3 {
+  color: HSLA(209, 100%, 33%, 1);
+  text-transform: uppercase;
+}
+
+.author-social li {
+  display: inline-block;
+  color: HSLA(205, 18%, 68%, 1);
+  font-size: .8em;
+  padding: 0 4px;
+}
+
+.ad {
+  margin-top: 50px;
+}
+
+.ad img {
+  width: 100%;
+}
+
+.ad a {
+  color: HSLA(205, 18%, 68%, 1);
+  font-size: .8em;
+  float: right;
+}
+
+.sidebar {
+  clear: both;
+  margin-top: 50px;
+}
+
+.sidebar h3 {
+  color: HSLA(209, 100%, 33%, 1);
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
 }
 
 
