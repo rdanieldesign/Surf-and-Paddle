@@ -19,6 +19,8 @@ li {
 
 h2 {
   font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
 }
 
 
@@ -33,6 +35,7 @@ h2 {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+  overflow: auto;
 }
 
 
@@ -88,4 +91,28 @@ header h1 {
 
 header p {
   text-align: center;
+}
+
+
+/* Body */
+
+article {
+  float: left;
+  width: 66%;
+}
+
+aside {
+  float: right;
+  width: 33%;
+}
+
+
+/* Most Popular */
+
+section {
+  width: 100%;
+}
+
+section ul {
+  height: 330px;
 }
