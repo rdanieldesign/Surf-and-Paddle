@@ -237,7 +237,7 @@ h1 {
 }
 
 .ad {
-  margin-top: 50px;
+  margin-top: 55px;
 }
 
 .ad img {
@@ -248,23 +248,27 @@ h1 {
   color: HSLA(205, 18%, 68%, 1);
   font-size: .8em;
   float: right;
+  margin-top: 3px;
 }
 
 .sidebar {
   clear: both;
-  margin-top: 60px;
+  margin-top: 64px;
 }
 
 .sidebar h3 {
   color: HSLA(209, 100%, 33%, 1);
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  letter-spacing: -1px;
 }
 
 .sidebar p {
   color: HSLA(205, 18%, 68%, 1);
-  font-size: .8em;
+  font-size: .9em;
+  margin-top: 5px;
+  line-height: 1.7em;
 }
 
 
@@ -274,8 +278,8 @@ section {
   width: 100%;
   clear: both;
   border-top: HSLA(205, 18%, 68%, 1) solid 1px;
-  padding-top: 40px;
-  margin-top: 60px;
+  padding-top: 34px;
+  margin-top: 70px;
   overflow: hidden;
 }
 
@@ -304,7 +308,7 @@ section li {
 }
 
 .article3 a {
-  padding-top: 236px;
+  padding-top: 245px;
 }
 
 .article4 {
@@ -314,12 +318,13 @@ section li {
 section a {
   color: HSLA(204, 83%, 14%, 1);
   font-family: 'Oswald', sans-serif;
-  font-size: 2em;
+  font-size: 1.9em;
   line-height: 1.2em;
   text-transform: uppercase;
   text-decoration: none;
-  padding-top: 275px;
-  padding-left: 20px;
+  padding-top: 285px;
+  padding-left: 18px;
+  padding-right: 10px;
   background-color: HSLA(209, 100%, 33%, .7);
   width: 100%;
   height: 100%;
@@ -354,11 +359,13 @@ footer span {
   color: HSLA(205, 18%, 68%, 1);
   vertical-align: middle;
   line-height: 35px;
+  font-size: 1.04em;
 }
 
 footer img {
   vertical-align: middle;
   margin-right: 12px;
+  margin-top: -8px;
 }
 
 footer ul {
