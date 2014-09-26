@@ -104,13 +104,17 @@ header {
 header h2 {
   text-transform: uppercase;
   color: white;
-  font-size: 6em;
+  font-size: 6.2em;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 157px;
+  -webkit-margin-after: 0;
+  line-height: .98em;
+  letter-spacing: -2px;
 }
 
 header p {
   text-align: center;
+  color: HSLA(204, 83%, 14%, 1);
 }
 
 
@@ -180,7 +184,7 @@ h1 {
 .post-options img {
   vertical-align: middle;
   padding: 7px 5px 7px 8px;
-  height: 2.06em;
+  height: 24px;
 }
 
 .post-options span {
