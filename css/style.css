@@ -89,16 +89,19 @@ header {
 }
 
 .nav-links {
-  padding-top: 10px;
+  padding-top: 8px;
+  float: right;
 }
 
 .nav-links span {
-  float: right;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  font-size: 1.12em;
+  margin-right: 6px;
 }
 
 .nav-links img {
+  margin-left: 7px;
 }
 
 header h2 {
