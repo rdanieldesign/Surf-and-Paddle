@@ -20,27 +20,27 @@ li {
 
 p {
   color: HSLA(205, 9%, 38%, 1);
-  line-height: 1.6em;
+  line-height: 1.65em;
 }
 
-p a {
+a {
   text-decoration: underline;
   color: HSLA(205, 18%, 68%, 1);
 }
 
-p a:hover {
+a:hover {
   color: HSLA(209, 100%, 33%, 1);
 }
 
 blockquote {
-  /* -webkit-margin-before: 1em; */
+  -webkit-margin-before: .8em;
   /* -webkit-margin-after: 1em; */
-  -webkit-margin-start: 0;
+  -webkit-margin-start: .2em;
   /* -webkit-margin-end: 40px; */
   color: HSLA(209, 100%, 33%, 1);
   text-transform: uppercase;
-  font-size: 1.8em;
-  padding-left: 20px;
+  font-size: 1.7em;
+  padding-left: 18px;
   border-left: HSLA(205, 18%, 68%, 1) solid 2px;
   line-height: 2em;
 }
@@ -52,7 +52,7 @@ blockquote {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 976px;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -124,7 +124,7 @@ article {
   float: left;
   width: 72%;
   padding-right: 10%;
-  margin-top: 60px;
+  margin-top: 62px;
 }
 
 aside {
@@ -136,12 +136,13 @@ aside {
 h1 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  font-size: 4em;
-  line-height: 1.2em;
+  font-size: 3.76em;
+  line-height: 1.18em;
 }
 
 .post-author {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
+  margin-top: 7px;
   font-size: .8em;
 }
 
@@ -151,8 +152,9 @@ h1 {
 }
 
 .post-author img {
-  width: 24px;
+  width: 23px;
   vertical-align: middle;
+  margin-left: 4px;
 }
 
 .post-name {
@@ -162,7 +164,12 @@ h1 {
 
 .post-date {
   color: HSLA(205, 18%, 68%, 1);
-  margin-left: 8px;
+  margin-left: 11px;
+}
+
+.post-date::before {
+  content: "on ";
+  text-decoration: none;
 }
 
 .post-options {
@@ -208,18 +215,25 @@ h1 {
 
 .author {
   text-align: center;
+  margin-top: 23px;
 }
 
 .author h3 {
   color: HSLA(209, 100%, 33%, 1);
   text-transform: uppercase;
+  margin-top: 6px;
+  letter-spacing: -1px;
+}
+
+.author-social {
+  margin-top: -3px;
 }
 
 .author-social li {
   display: inline-block;
   color: HSLA(205, 18%, 68%, 1);
   font-size: .8em;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .ad {
