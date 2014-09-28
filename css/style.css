@@ -176,13 +176,51 @@ h1 {
 }
 
 .post-content {
-  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .post-content:last-child {
   margin-bottom: 20px;
 }
+
 .post-options {
+  margin-top: 21px;
+  margin-left: 4px;
+  color: white;
+  display: inline-block;
+  font-size: .8em;
+}
+
+.post-options li {
+  display: inline-block;
+  margin-right: 11px;
+  height: 30px;
+  background-color: HSLA(205, 9%, 38%, 1);
+}
+
+.post-options img {
+  display: inline-block;
+  height: 1.6em;
+  padding: 8px 5px 0px 8px;
+  }
+
+.post-options span {
+  display: inline-block;
+  background-color: HSLA(205, 18%, 68%, 1);
+  color: white;
+  padding: 0 13px;
+  line-height: 30px;
+}
+
+.post-options li:hover {
+  background-color: HSLA(204, 83%, 14%, 1);
+}
+
+.post-options li:hover span {
+  background-color: HSLA(209, 100%, 33%, 1);
+}
+
+/* .post-options {
   margin-top: -5px;
   color: white;
   display: inline-block;
@@ -219,7 +257,7 @@ h1 {
 .post-options li:hover span {
   background-color: HSLA(209, 100%, 33%, 1);
 }
-
+ */
 
 /* Aside */
 
