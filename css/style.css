@@ -175,8 +175,15 @@ h1 {
   text-decoration: none;
 }
 
+.post-content {
+  margin-bottom: 25px;
+}
+
+.post-content:last-child {
+  margin-bottom: 20px;
+}
 .post-options {
-  margin-top: 20px;
+  margin-top: -5px;
   color: white;
   display: inline-block;
   vertical-align: middle;
