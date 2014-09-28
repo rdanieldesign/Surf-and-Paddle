@@ -58,6 +58,10 @@ blockquote {
   overflow: hidden;
 }
 
+.container.extra-wide {
+  max-width: 1020px;
+}
+
 
 /* Header */
 
@@ -72,6 +76,7 @@ header {
   overflow: auto;
   vertical-align: middle;
   margin-top: 10px;
+  padding-right: 28px;
 }
 
 .logo {
@@ -97,7 +102,7 @@ header {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 1.12em;
-  margin-right: 6px;
+  margin-left: 8px;
 }
 
 .nav-links img {
