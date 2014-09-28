@@ -98,11 +98,17 @@ header {
   float: right;
 }
 
-.nav-links span {
+.nav-links a {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 1.12em;
   margin-left: 8px;
+  color: HSLA(204, 83%, 14%, 1);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: white;
 }
 
 .nav-links img {
@@ -225,44 +231,6 @@ h1 {
   background-color: HSLA(209, 100%, 33%, 1);
 }
 
-/* .post-options {
-  margin-top: -5px;
-  color: white;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 0;
-  font-size: .8em;
-}
-
-.post-options li {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 8px;
-  background-color: HSLA(205, 9%, 38%, 1);
-}
-
-.post-options img {
-  vertical-align: middle;
-  padding: 7px 5px 7px 8px;
-  height: 24px;
-}
-
-.post-options span {
-  background-color: HSLA(205, 18%, 68%, 1);
-  color: white;
-  vertical-align: middle;
-  line-height: 28px;
-  padding: 6px 17px 6px 12px;
-}
-
-.post-options li:hover {
-  background-color: HSLA(204, 83%, 14%, 1);
-}
-
-.post-options li:hover span {
-  background-color: HSLA(209, 100%, 33%, 1);
-}
- */
 
 /* Aside */
 
@@ -289,6 +257,10 @@ h1 {
   padding: 0 6px;
 }
 
+.author-social a {
+  text-decoration: none;
+}
+
 .ad {
   margin-top: 55px;
 }
@@ -302,6 +274,10 @@ h1 {
   font-size: .8em;
   float: right;
   margin-top: 3px;
+}
+
+.ad a:hover {
+  color: HSLA(209, 100%, 33%, 1);
 }
 
 .sidebar {
@@ -431,6 +407,14 @@ footer li {
   color: HSLA(205, 18%, 68%, 1);
   line-height: 35px;
   margin-left: 2px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
 }
 
 footer li::after {
