@@ -9,13 +9,11 @@
 
 h1, h1, h3, h4, h5, h6, ul, li, p {
   margin: 0;
-  padding: 0; }
-
-li {
+  padding: 0;
   list-style: none; }
 
 p {
-  color: HSLA(205, 9%, 38%, 1);
+  color: HSLA(204, 83%, 14%, 1);
   line-height: 1.65em; }
 
 a {
@@ -65,14 +63,12 @@ header {
 
 .logo {
   float: left; }
-
-.logo img {
-  vertical-align: middle; }
-
-.logo span {
-  vertical-align: middle;
-  text-transform: uppercase;
-  margin-left: 12px; }
+  .logo img {
+    vertical-align: middle; }
+  .logo span {
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-left: 12px; }
 
 .nav-links {
   padding-top: 8px;
@@ -167,7 +163,7 @@ h1 {
   display: inline-block;
   margin-right: 11px;
   height: 30px;
-  background-color: HSLA(205, 9%, 38%, 1); }
+  background-color: HSLA(204, 83%, 14%, 1); }
 
 .post-options img {
   display: inline-block;
@@ -361,7 +357,7 @@ li {
   list-style: none; }
 
 p {
-  color: HSLA(205, 9%, 38%, 1);
+  color: HSLA(204, 83%, 14%, 1);
   line-height: 1.65em; }
 
 a {

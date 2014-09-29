@@ -8,7 +8,7 @@
 * {
   font-family: $opensans;
   font-size: 1em;
-  color: HSLA(204, 83%, 14%, 1);
+  color: $dark-blue;;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -17,24 +17,21 @@
 h1, h1, h3, h4, h5, h6, ul, li, p {
   margin: 0;
   padding: 0;
-}
-
-li {
   list-style: none;
 }
 
 p {
-  color: HSLA(205, 9%, 38%, 1);
+  color: $dark-blue;
   line-height: 1.65em;
 }
 
 a {
   text-decoration: underline;
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
 }
 
 a:hover {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
 }
 
 blockquote {
@@ -42,11 +39,11 @@ blockquote {
   /* -webkit-margin-after: 1em; */
   -webkit-margin-start: .2em;
   /* -webkit-margin-end: 40px; */
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
   text-transform: uppercase;
   font-size: 1.7em;
   padding-left: 18px;
-  border-left: HSLA(205, 18%, 68%, 1) solid 2px;
+  border-left: $light-grey solid 2px;
   line-height: 2em;
 }
 
@@ -72,7 +69,7 @@ blockquote {
 
 header {
   background-image: url("../img/header.jpg");
-  background-color: HSLA(204, 83%, 14%, 1);
+  background-color: $dark-blue;;
   height: 523px;
   overflow: auto;
 }
@@ -86,16 +83,17 @@ header {
 
 .logo {
   float: left;
-}
 
-.logo img {
-  vertical-align: middle;
-}
+    img {
+      vertical-align: middle;
+    }
 
-.logo span {
-  vertical-align: middle;
-  text-transform: uppercase;
-  margin-left: 12px;
+    span {
+      vertical-align: middle;
+      text-transform: uppercase;
+      margin-left: 12px;
+    }
+
 }
 
 .nav-links {
@@ -108,7 +106,7 @@ header {
   text-transform: uppercase;
   font-size: 1.12em;
   margin-left: 8px;
-  color: HSLA(204, 83%, 14%, 1);
+  color: $dark-blue;;
   text-decoration: none;
 }
 
@@ -133,7 +131,7 @@ header h2 {
 
 header p {
   text-align: center;
-  color: HSLA(204, 83%, 14%, 1);
+  color: $dark-blue;;
 }
 
 
@@ -177,12 +175,12 @@ h1 {
 }
 
 .post-name {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
   margin-left: 4px;
 }
 
 .post-date {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   margin-left: 11px;
 }
 
@@ -211,7 +209,7 @@ h1 {
   display: inline-block;
   margin-right: 11px;
   height: 30px;
-  background-color: HSLA(205, 9%, 38%, 1);
+  background-color: $dark-blue;
 }
 
 .post-options img {
@@ -222,18 +220,18 @@ h1 {
 
 .post-options span {
   display: inline-block;
-  background-color: HSLA(205, 18%, 68%, 1);
+  background-color: $light-grey;
   color: white;
   padding: 0 13px;
   line-height: 30px;
 }
 
 .post-options li:hover {
-  background-color: HSLA(204, 83%, 14%, 1);
+  background-color: $dark-blue;;
 }
 
 .post-options li:hover span {
-  background-color: HSLA(209, 100%, 33%, 1);
+  background-color: $light-blue;
 }
 
 
@@ -245,7 +243,7 @@ h1 {
 }
 
 .author h3 {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
   text-transform: uppercase;
   margin-top: 6px;
   letter-spacing: -1px;
@@ -257,7 +255,7 @@ h1 {
 
 .author-social li {
   display: inline-block;
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   font-size: .8em;
   padding: 0 6px;
 }
@@ -275,14 +273,14 @@ h1 {
 }
 
 .ad a {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   font-size: .8em;
   float: right;
   margin-top: 3px;
 }
 
 .ad a:hover {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
 }
 
 .sidebar {
@@ -291,7 +289,7 @@ h1 {
 }
 
 .sidebar h3 {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
   text-transform: uppercase;
   font-family: $oswald;
   font-size: 1.1em;
@@ -299,7 +297,7 @@ h1 {
 }
 
 .sidebar p {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   font-size: .9em;
   margin-top: 5px;
   line-height: 1.7em;
@@ -311,7 +309,7 @@ h1 {
 section {
   width: 100%;
   clear: both;
-  border-top: HSLA(205, 18%, 68%, 1) solid 1px;
+  border-top: $light-grey solid 1px;
   padding-top: 34px;
   margin-top: 70px;
   overflow: hidden;
@@ -350,7 +348,7 @@ section li {
 }
 
 section a {
-  color: HSLA(204, 83%, 14%, 1);
+  color: $dark-blue;;
   font-family: $oswald;
   font-size: 1.9em;
   line-height: 1.2em;
@@ -359,14 +357,14 @@ section a {
   padding-top: 285px;
   padding-left: 18px;
   padding-right: 10px;
-  background-color: HSLA(209, 100%, 33%, .7);
+  background-color: $blue-70p;
   width: 100%;
   height: 100%;
   display: block;
 }
 
 section a:hover {
-  background-color: HSLA(209, 100%, 33%, 0);
+  background-color: $blue-0p;
   color: white;
 }
 
@@ -380,7 +378,7 @@ section div:hover a {
 footer {
   width: 100%;
   height: 100px;
-  background-color: HSLA(204, 83%, 14%, 1);
+  background-color: $dark-blue;;
   font-size: .8em;
 }
 
@@ -390,7 +388,7 @@ footer div {
 }
 
 footer span {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   vertical-align: middle;
   line-height: 35px;
   font-size: 1.04em;
@@ -403,13 +401,13 @@ footer img {
 }
 
 footer ul {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   float: right;
 }
 
 footer li {
   display: inline;
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   line-height: 35px;
   margin-left: 2px;
 }
@@ -437,7 +435,7 @@ footer li:last-child::after {
 * {
   font-family: $opensans;
   font-size: 1em;
-  color: HSLA(204, 83%, 14%, 1);
+  color: $dark-blue;;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -453,17 +451,17 @@ li {
 }
 
 p {
-  color: HSLA(205, 9%, 38%, 1);
+  color: $dark-blue;
   line-height: 1.65em;
 }
 
 a {
   text-decoration: underline;
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
 }
 
 a:hover {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
 }
 
 blockquote {
@@ -471,11 +469,11 @@ blockquote {
   /* -webkit-margin-after: 1em; */
   -webkit-margin-start: .2em;
   /* -webkit-margin-end: 40px; */
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
   text-transform: uppercase;
   font-size: 1.7em;
   padding-left: 18px;
-  border-left: HSLA(205, 18%, 68%, 1) solid 2px;
+  border-left: $light-grey solid 2px;
   line-height: 2em;
 }
 
@@ -501,7 +499,7 @@ blockquote {
 
 header {
   background-image: url("../img/header.jpg");
-  background-color: HSLA(204, 83%, 14%, 1);
+  background-color: $dark-blue;;
   height: 523px;
   overflow: auto;
 }
@@ -537,7 +535,7 @@ header {
   text-transform: uppercase;
   font-size: 1.12em;
   margin-left: 8px;
-  color: HSLA(204, 83%, 14%, 1);
+  color: $dark-blue;;
   text-decoration: none;
 }
 
@@ -562,7 +560,7 @@ header h2 {
 
 header p {
   text-align: center;
-  color: HSLA(204, 83%, 14%, 1);
+  color: $dark-blue;;
 }
 
 
@@ -606,12 +604,12 @@ h1 {
 }
 
 .post-name {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
   margin-left: 4px;
 }
 
 .post-date {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   margin-left: 11px;
 }
 
@@ -640,7 +638,7 @@ h1 {
   display: inline-block;
   margin-right: 11px;
   height: 30px;
-  background-color: HSLA(205, 9%, 38%, 1);
+  background-color: $grey;
 }
 
 .post-options img {
@@ -651,18 +649,18 @@ h1 {
 
 .post-options span {
   display: inline-block;
-  background-color: HSLA(205, 18%, 68%, 1);
+  background-color: $light-grey;
   color: white;
   padding: 0 13px;
   line-height: 30px;
 }
 
 .post-options li:hover {
-  background-color: HSLA(204, 83%, 14%, 1);
+  background-color: $dark-blue;;
 }
 
 .post-options li:hover span {
-  background-color: HSLA(209, 100%, 33%, 1);
+  background-color: $light-blue;
 }
 
 
@@ -674,7 +672,7 @@ h1 {
 }
 
 .author h3 {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
   text-transform: uppercase;
   margin-top: 6px;
   letter-spacing: -1px;
@@ -686,7 +684,7 @@ h1 {
 
 .author-social li {
   display: inline-block;
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   font-size: .8em;
   padding: 0 6px;
 }
@@ -704,14 +702,14 @@ h1 {
 }
 
 .ad a {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   font-size: .8em;
   float: right;
   margin-top: 3px;
 }
 
 .ad a:hover {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
 }
 
 .sidebar {
@@ -720,7 +718,7 @@ h1 {
 }
 
 .sidebar h3 {
-  color: HSLA(209, 100%, 33%, 1);
+  color: $light-blue;
   text-transform: uppercase;
   font-family: $oswald;
   font-size: 1.1em;
@@ -728,7 +726,7 @@ h1 {
 }
 
 .sidebar p {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   font-size: .9em;
   margin-top: 5px;
   line-height: 1.7em;
@@ -740,7 +738,7 @@ h1 {
 section {
   width: 100%;
   clear: both;
-  border-top: HSLA(205, 18%, 68%, 1) solid 1px;
+  border-top: $light-grey solid 1px;
   padding-top: 34px;
   margin-top: 70px;
   overflow: hidden;
@@ -779,7 +777,7 @@ section li {
 }
 
 section a {
-  color: HSLA(204, 83%, 14%, 1);
+  color: $dark-blue;;
   font-family: $oswald;
   font-size: 1.9em;
   line-height: 1.2em;
@@ -788,14 +786,14 @@ section a {
   padding-top: 285px;
   padding-left: 18px;
   padding-right: 10px;
-  background-color: HSLA(209, 100%, 33%, .7);
+  background-color: $blue-70p;
   width: 100%;
   height: 100%;
   display: block;
 }
 
 section a:hover {
-  background-color: HSLA(209, 100%, 33%, 0);
+  background-color: $blue-0p;
   color: white;
 }
 
@@ -809,7 +807,7 @@ section div:hover a {
 footer {
   width: 100%;
   height: 100px;
-  background-color: HSLA(204, 83%, 14%, 1);
+  background-color: $dark-blue;;
   font-size: .8em;
 }
 
@@ -819,7 +817,7 @@ footer div {
 }
 
 footer span {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   vertical-align: middle;
   line-height: 35px;
   font-size: 1.04em;
@@ -832,13 +830,13 @@ footer img {
 }
 
 footer ul {
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   float: right;
 }
 
 footer li {
   display: inline;
-  color: HSLA(205, 18%, 68%, 1);
+  color: $light-grey;
   line-height: 35px;
   margin-left: 2px;
 }
