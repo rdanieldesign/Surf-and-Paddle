@@ -1,6 +1,6 @@
-/* Defaults */
+/* Partials */
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   color: HSLA(204, 83%, 14%, 1);
   -webkit-box-sizing: border-box;
@@ -79,7 +79,7 @@ header {
   float: right; }
 
 .nav-links a {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 1.12em;
   margin-left: 8px;
@@ -119,7 +119,7 @@ aside {
   margin-top: 60px; }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 3.76em;
   line-height: 1.18em; }
@@ -232,7 +232,7 @@ h1 {
 .sidebar h3 {
   color: HSLA(209, 100%, 33%, 1);
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.1em;
   letter-spacing: -1px; }
 
@@ -278,7 +278,7 @@ section li {
 
 section a {
   color: HSLA(204, 83%, 14%, 1);
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.9em;
   line-height: 1.2em;
   text-transform: uppercase;
@@ -346,7 +346,7 @@ footer li:last-child::after {
 /* Testing Comments */
 /* Defaults */
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   color: HSLA(204, 83%, 14%, 1);
   -webkit-box-sizing: border-box;
@@ -425,7 +425,7 @@ header {
   float: right; }
 
 .nav-links a {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 1.12em;
   margin-left: 8px;
@@ -465,7 +465,7 @@ aside {
   margin-top: 60px; }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 3.76em;
   line-height: 1.18em; }
@@ -578,7 +578,7 @@ h1 {
 .sidebar h3 {
   color: HSLA(209, 100%, 33%, 1);
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.1em;
   letter-spacing: -1px; }
 
@@ -624,7 +624,7 @@ section li {
 
 section a {
   color: HSLA(204, 83%, 14%, 1);
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.9em;
   line-height: 1.2em;
   text-transform: uppercase;
