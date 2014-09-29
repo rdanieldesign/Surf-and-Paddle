@@ -5,6 +5,8 @@
 @import "fonts";
 
 
+/* Defaults */
+
 * {
   font-family: $opensans;
   font-size: 1em;
@@ -28,10 +30,11 @@ p {
 a {
   text-decoration: underline;
   color: $light-grey;
-}
 
-a:hover {
-  color: $light-blue;
+  &:hover {
+    color: $light-blue;
+  }
+
 }
 
 blockquote {
@@ -69,7 +72,6 @@ blockquote {
 
 header {
   background-image: url("../img/header.jpg");
-  background-color: $dark-blue;;
   height: 523px;
   overflow: auto;
 
@@ -123,10 +125,11 @@ header {
       margin-left: 8px;
       color: $dark-blue;;
       text-decoration: none;
-    }
 
-    a:hover {
-      color: white;
+      &:hover {
+        color: white;
+      }
+
     }
 
     img {
@@ -180,19 +183,21 @@ h1 {
 .post-date {
   color: $light-grey;
   margin-left: 11px;
-}
 
-.post-date::before {
-  content: "on ";
-  text-decoration: none;
+  &::before {
+    content: "on ";
+    text-decoration: none;
+  }
+
 }
 
 .post-content {
   margin-top: 25px;
-}
 
-.post-content:last-child {
-  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 20px;
+  }
+
 }
 
 .post-options {
@@ -207,6 +212,16 @@ h1 {
     margin-right: 11px;
     height: 30px;
     background-color: $grey;
+
+    &:hover {
+      background-color: $dark-blue;
+
+      span {
+        background-color: $light-blue;
+      }
+
+    }
+
   }
 
   img {
@@ -221,15 +236,6 @@ h1 {
     color: white;
     padding: 0 13px;
     line-height: 30px;
-  }
-
-  li:hover {
-    background-color: $dark-blue;;
-
-    span {
-      background-color: $light-blue;
-    }
-
   }
 
 }
@@ -284,10 +290,11 @@ aside {
     font-size: .8em;
     float: right;
     margin-top: 3px;
-  }
 
-  a:hover {
-    color: $light-blue;
+    &:hover {
+      color: $light-blue;
+    }
+
   }
 
 }
@@ -336,6 +343,19 @@ section {
     width: 25%;
     background-color: $light-blue;
     position: relative;
+
+    &:hover {
+
+      a {
+        color: white;
+      }
+
+      img {
+        opacity: 1;
+      }
+
+    }
+
   }
 
   img {
@@ -353,19 +373,6 @@ section {
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 99;
-  }
-
-  li:hover {
-
-    a {
-      color: white;
-    }
-
-    img {
-      opacity: 1;
-    }
-
   }
 
 }
@@ -407,23 +414,25 @@ footer {
     color: $light-grey;
     line-height: 35px;
     margin-left: 2px;
-  }
 
-  li::after {
-    content: "|";
-    margin-left: 6px;
-  }
+    &::after {
+      content: "|";
+      margin-left: 6px;
+    }
 
-  li:last-child::after {
-    content: "";
+    &:last-child::after {
+      content: "";
+    }
+
   }
 
   a {
     text-decoration: none;
-  }
 
-  a:hover {
-    color: white;
+    &:hover {
+      color: white;
+    }
+    
   }
 
 }
