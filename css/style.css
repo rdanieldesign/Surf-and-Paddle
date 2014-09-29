@@ -102,11 +102,6 @@ article {
   padding-right: 10%;
   margin-top: 62px; }
 
-aside {
-  float: right;
-  width: 28%;
-  margin-top: 60px; }
-
 h1 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -153,7 +148,7 @@ h1 {
     display: inline-block;
     margin-right: 11px;
     height: 30px;
-    background-color: HSLA(204, 83%, 14%, 1); }
+    background-color: HSLA(205, 9%, 38%, 1); }
   .post-options img {
     display: inline-block;
     height: 1.6em;
@@ -170,6 +165,11 @@ h1 {
       background-color: HSLA(209, 100%, 33%, 1); }
 
 /* Aside */
+aside {
+  float: right;
+  width: 28%;
+  margin-top: 60px; }
+
 .author {
   text-align: center;
   margin-top: 23px; }
@@ -231,7 +231,11 @@ section {
     display: inline-block;
     float: left;
     height: 330px;
-    width: 25%; }
+    width: 25%;
+    background-color: HSLA(209, 100%, 33%, 1);
+    position: relative; }
+  section img {
+    opacity: .4; }
   section a {
     color: HSLA(204, 83%, 14%, 1);
     font-family: "Oswald", sans-serif;
@@ -239,32 +243,15 @@ section {
     line-height: 1.2em;
     text-transform: uppercase;
     text-decoration: none;
-    padding-top: 285px;
-    padding-left: 18px;
-    padding-right: 10px;
-    background-color: HSLA(209, 100%, 33%, 0.7);
-    width: 100%;
-    height: 100%;
-    display: block; }
-  section a:hover {
-    background-color: HSLA(209, 100%, 33%, 0);
+    padding: 12px 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99; }
+  section li:hover a {
     color: white; }
-  section div:hover a {
-    color: white; }
-
-.article1 {
-  background-image: url("../img/article-image-1.jpg"); }
-
-.article2 {
-  background-image: url("../img/article-image-2.jpg"); }
-
-.article3 {
-  background-image: url("../img/article-image-3.jpg"); }
-  .article3 a {
-    padding-top: 245px; }
-
-.article4 {
-  background-image: url("../img/article-image-4.jpg"); }
+  section li:hover img {
+    opacity: 1; }
 
 /* Footer */
 footer {
